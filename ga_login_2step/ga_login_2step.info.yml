@@ -1,0 +1,6 @@
+name: 'GA Login 2 step'
+description: 'This modules allows two step login using Google Authenticator.'
+core: 8.x
+dependencies:
+  - ga_login
+type: module

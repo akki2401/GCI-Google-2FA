@@ -1,0 +1,6 @@
+ga_login_2step.settings:
+  type: mapping
+  label: Settings
+  mapping:
+    ga_login_2step_form:
+      type: integer

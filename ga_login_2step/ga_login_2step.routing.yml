@@ -1,0 +1,7 @@
+ga_login_2step.begin_form:
+  path: '/ga-login-2step/{account}/{url_hash}'
+  defaults:
+    _title: 'GA Login Two-Step Authentication'
+    _controller: '\Drupal\ga_login_2step\Controller\DefaultController::ga_login_2step_begin_form'
+  requirements:
+    _custom_access: '\Drupal\ga_login_2step\Controller\DefaultController::ga_login_2step_entry_access'
